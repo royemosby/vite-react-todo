@@ -1,0 +1,4 @@
+VITE_API_URL=https://api.airtable.com/v0
+VITE_BASE_ID=yourownbaseid
+VITE_BASE_NAME=Default
+VITE_AIRTABLE_TOKEN=supersecret

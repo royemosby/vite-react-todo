@@ -1,0 +1,34 @@
+button {
+
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 16px;
+  height: 38px;
+  min-width: 75px;
+  min-height: 38px;
+  border: none;
+  color: #cbd2d0;
+  background-color: #1F5463;
+  transition: background-color .17s ease,
+    color .17s ease;
+
+
+}
+
+button:hover {
+  background-color: #3D707F;
+  color: #fff
+}
+
+button:disabled {
+  background-color: #012631;
+  font-style: italic;
+  color: #3D707F;
+  cursor: not-allowed;
+  position: relative;
+}

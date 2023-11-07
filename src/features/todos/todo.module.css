@@ -1,0 +1,10 @@
+li {
+  display: grid;
+  grid-template-columns: 40px 300px 80px 80px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  min-width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+}
